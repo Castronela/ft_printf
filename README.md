@@ -1,4 +1,6 @@
-# ft_printf
+# ft_printf  
+![Language](https://img.shields.io/badge/Language-C-blue)
+![42](https://img.shields.io/badge/Made%20at-42%20Heilbronn-blue?style=flat)
 
 An implementation of the `printf` function in C, created as part of the **42 Heilbronn curriculum**.  
 This project replicates the behavior of the standard `printf` function while following strict coding norms.
@@ -31,9 +33,7 @@ The following **flags** are implemented to modify the output format:
 - **`'0'`** – Pad the number with zeros instead of spaces (only works for numeric conversions).  
   Example: `%05d` will print `00042`.
 
-- **`'#'`** – Alternate form:  
-  - For `%x` or `%X`, prefix with `0x` or `0X`.  
-  - For `%o`, prefix with `0`.  
+- **`'#'`** – Alternate form: for `%x` or `%X`, prefix with `0x` or `0X`.  
   Example: `%#x` will print `0x2a`.
 
 - **`' '` (space)** – Insert a leading space before positive numbers (ignored if `+` is present).  
